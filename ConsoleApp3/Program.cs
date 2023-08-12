@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Whats your age?");
+        int age= int.Parse(Console.ReadLine());
+        Console.WriteLine("Your age is "+age+"!");
+    }
+}
